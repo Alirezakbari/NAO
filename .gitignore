@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C / C++ & Robotics build artifacts
+build/
+*.exe
+*.o
+*.obj
+*.log
+
+# Webots simulation artifacts & temporary files
+*.wbproj.old
+*.wbt.old
+*.bak
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache & Diagnostics
+.cache/
+.pytest_cache/
